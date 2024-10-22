@@ -1,0 +1,164 @@
+﻿Vision and Scope Document
+for
+Car Safety System
+Version 1.0 approved
+Prepared by Tymofii Kuzmenko
+22.10.24
+Table of Contents
+
+
+Table of Contents        ii
+Revision History        ii
+1.        Business Requirements        1
+1.1.        Background        1
+1.2.        Business Opportunity        1
+1.3.        Business Objectives and Success Criteria        1
+1.4.        Customer or Market Needs        1
+1.5.        Business Risks        1
+2.        Vision of the Solution        2
+2.1.        Vision Statement        2
+2.2.        Major Features        2
+2.3.        Assumptions and Dependencies        2
+3.        Scope and Limitations        2
+3.1.        Scope of Initial Release        2
+3.2.        Scope of Subsequent Releases        2
+3.3.        Limitations and Exclusions        3
+4.        Business Context        3
+4.1.        Stakeholder Profiles        3
+4.2.        Project Priorities        4
+4.3.        Operating Environment        4
+
+
+
+
+
+
+
+
+Revision History
+
+
+
+
+Name
+	Date
+	Reason For Changes
+	Version
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+1. Business Requirements
+   1. Background
+The increasing number of road accidents due to human errors, vehicle malfunctions, and poor infrastructure highlights the need for advanced car safety systems. Many of these incidents could have been prevented with real-time vehicle monitoring, early warnings, and critical response interventions.
+   2. Business Opportunity
+The Car Safety System offers a market opportunity by addressing an urgent need for enhanced road safety. Current solutions such as Advanced Driver Assistance Systems (ADAS) and partial autopilot systems (e.g., Tesla Autopilot) focus on either assisting the driver or taking control in specific conditions. However, they lack personalized, real-time monitoring and IoT integration for comprehensive safety. This system fills the gap with real-time monitoring and a more adaptive safety response mechanism.
+   3. Business Objectives and Success Criteria
+- Objective: To reduce vehicle-related accidents through real-time monitoring and automated safety responses.  
+- Success Criteria: A measurable reduction in road incidents by 15% for users within the first year. Sales targets include partnering with two major automakers within the first six months and achieving 10,000 system installs in year one.
+   4. Customer or Market Needs
+- Drivers and vehicle owners want to feel safe and protected from potential accidents.
+- Car manufacturers are looking for ways to differentiate their offerings with advanced safety features.
+- Insurance companies seek to lower accident rates and claims through advanced vehicle monitoring systems.
+   5. Business Risks
+- Technological risks: Delays in the development or integration of IoT technology with the car’s systems.
+- Market acceptance: Users may resist additional systems if they believe existing safety measures are sufficient.
+- Competitive risks: Other companies (e.g., Tesla, Bosch) releasing competing systems.
+2. Vision of the Solution
+   1. Vision Statement
+The Car Safety System will revolutionize vehicle safety by providing real-time monitoring of a car's condition, alerting drivers to potential hazards, and automatically taking corrective actions when necessary. The system will integrate seamlessly with mobile devices for remote vehicle status checks and will improve road safety for millions of drivers worldwide.
+   2. Major Features
+1. Real-time vehicle condition monitoring (tire pressure, engine status, fuel levels).  
+2. Hazard detection and alerting (e.g., obstacles, icy roads, traffic congestion).  
+3. Automatic emergency interventions (automatic braking, speed control).  
+4. Integration with IoT and mobile devices for remote monitoring and alerts.  
+5. Post-trip analysis and safety recommendations.
+   3. Assumptions and Dependencies
+- The project assumes the availability of high-quality IoT devices that can seamlessly integrate with vehicles.  
+- The system’s success depends on partnerships with car manufacturers for easy integration into new vehicles.
+3. Scope and Limitations
+   1. Scope of Initial Release
+The initial release will include the core features of the system: real-time monitoring of the vehicle's status, hazard detection, and integration with a mobile app for remote notifications. It will focus on providing the most critical safety interventions such as automatic braking and speed regulation.
+   2. Scope of Subsequent Releases
+Subsequent releases will introduce advanced analytics, such as predicting vehicle maintenance needs, additional integrations with other smart devices (e.g., home automation systems), and expanded capabilities for fleets of vehicles.
+   3. Limitations and Exclusions
+- The initial release will not include full autopilot features.  
+- The system will not monitor weather conditions beyond basic hazard alerts (e.g., no full meteorological data processing). 
+4. Business Context
+   1. Stakeholder Profiles
+Stakeholder
+	Major Value
+	Attitudes
+	Major Interests
+	Constraints
+	Drivers
+	Increased safety while driving
+	Receptive if easy to use
+	Seamless integration, real-time alerts
+	May resist if system is complicated to use
+	Car Manufacturers
+	Integrated advanced safety features
+	Positive toward new tech
+	System differentiation, ease of installation
+	Must not increase vehicle cost significantly
+	Insurance Companies
+	Lower accident rates, reduced claims
+	Very interested
+	Reliable data, accident reduction
+	Privacy concerns around monitoring
+	Fleet Managers
+	Improved fleet safety, cost savings on repairs
+	Interested in cost efficiency
+	Centralized monitoring, predictive maintenance
+	Must integrate with existing fleet systems
+	
+
+   2. Project Priorities
+Dimension
+	Driver
+	Constraint
+	Degree of Freedom
+	Schedule
+	Release version 1.0 by Q3
+	Version 1.1 by Q4
+	Delay of up to 3 months if necessary
+	Features
+	Core safety features fully active
+	70-80% of high-priority features in 1.0
+	Optional features for release 1.1
+	Quality
+	Safety features must be reliable
+	90-95% of user acceptance tests passed
+	95-98% for subsequent releases
+	Staff
+	Efficient use of team resources
+	Maximum 6 developers, 4 testers
+	Additional temporary hires if necessary
+	Cost
+	Keep development within budget
+	Budget overrun of up to 15% acceptable
+	Reallocate funds if needed
+	
+
+   3. Operating Environment
+The Car Safety System will operate in a wide range of environments, including urban, suburban, and rural areas. The system will be accessible via mobile applications and onboard vehicle displays.
+* Geographic Distribution: Users may be widely distributed across multiple regions and time zones.
+* Access: Drivers will need access to the system at all times while in the vehicle, with mobile access for remote monitoring when not driving.
+* Data Flow: The system collects data from vehicles across different locations, which must be securely transmitted to cloud-based servers for analysis and reporting.
+* Performance: Critical actions such as braking or speed regulation must have near-instantaneous response times. Data storage and access must be reliable, ensuring no significant delays in hazard detection or alerting.
+* Reliability: The system must have a high uptime, with minimal interruptions. Emergency safety features must be operational even in the event of service downtime.
+* Security: High-level data security controls will be needed to protect personal and vehicle data, especially as the system handles sensitive safety-related information.
